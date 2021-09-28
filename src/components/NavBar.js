@@ -34,3 +34,19 @@ export class NavBar extends Component {
 }
 
 export default NavBar
+
+
+
+
+
+
+// # git fetch origin master
+// # git merge origin master
+// #                        #After to wrote this code I received other error: (non-fast-forward)
+
+// #                           I  write this code:
+
+// # git fetch origin master:tmp
+// # git rebase tmp
+// # git push origin HEAD:master
+// # git branch -D tmp
