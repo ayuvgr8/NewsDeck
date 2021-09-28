@@ -2,14 +2,18 @@
 import './App.css';
 
 import React, { Component } from 'react'
+import NavBar from './components/NavBar';
+import News from './components/News';
 
 export default class App extends Component {
-  c = 'jhon';
+  
   render() {
     return (
       <div>
-        hello My first Class Based Component {this.c}
-
+        <NavBar />
+        <News />
+        Hey you! Superman is here!
+      
       </div>
     )
   }
